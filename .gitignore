@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data.json
+summary-backup/
+summary-state.json
+vault-rag-index.json
+vault-rag-vectors.bin

@@ -1,0 +1,14 @@
+{
+  "name": "my-vault-rag-plugin",
+  "version": "0.1.0",
+  "description": "Ask questions answered only from your own vault notes",
+  "main": "main.js",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --external:obsidian --external:electron --format=cjs --target=es2018 --outfile=main.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.28.0",
+    "obsidian": "^1.12.3"
+  }
+}

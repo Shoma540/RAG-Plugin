@@ -1,0 +1,27 @@
+/* My Vault RAG — styles (ステップ1では未使用) */
+.vault-rag-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 0 0 8px 0;
+}
+
+.vault-rag-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px 0 6px 0;
+}
+
+.vault-rag-copy-btn {
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.vault-rag-copy-btn:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}

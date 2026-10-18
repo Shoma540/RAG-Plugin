@@ -1,0 +1,9 @@
+{
+  "id": "My-Vault-RAG-Plugin",
+  "name": "My Vault RAG",
+  "version": "0.1.0",
+  "minAppVersion": "1.0.0",
+  "description": "Ask questions answered only from your own vault notes",
+  "author": "Custom",
+  "isDesktopOnly": true
+}
